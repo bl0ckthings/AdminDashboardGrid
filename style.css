@@ -137,7 +137,7 @@ body {
 
 input {
     border-radius: 20px;
-    width: 70vh;
+    width: 80vh;
     height: 30px;
     border: none;
     background-color: rgba(211, 211, 211, 0.469);
@@ -170,8 +170,14 @@ input {
 }
 
 /* HEADER END */
-
+/* TITLES */
 .main {
     grid-column: 2 / 3;
     border: 1px solid black;
+}
+
+.titles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 5%;
 }
